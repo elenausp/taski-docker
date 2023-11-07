@@ -44,7 +44,6 @@ jobs:
           # устанавливаем тег latest, чтобы потом
           # на сервере и в docker-compose.yml не указывать версию
           tags: euspena/taski_backend:latest 
-
     services:
       postgres:
         image: postgres:13.10
